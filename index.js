@@ -23,3 +23,8 @@ function appendKitten(){
   var newArray = [...kittens, "Broom"];
   return newArray;
 }
+
+function prependKitten(){
+  var newArray = ["Broom", ...kittens];
+  return newArray;
+}
