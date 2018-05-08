@@ -28,3 +28,9 @@ function prependKitten(){
   var newArray = ["Arnold", ...kittens];
   return newArray;
 }
+
+function removeLastKitten(){
+  var newArray = kittens.pop();
+  return newArray;
+}
+
