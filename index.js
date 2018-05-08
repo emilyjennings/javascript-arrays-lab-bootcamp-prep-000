@@ -7,5 +7,6 @@ function destructivelyAppendKitten(name) {
 }
 
 function desctructivelyPrependKitten(name) {
-  name = "Ralph"
+  name = "Ralph";
+  
 }
